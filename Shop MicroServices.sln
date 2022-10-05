@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartApp", "CartService\CartApp.csproj", "{D8027AB4-F5FA-494C-A283-55E90D2026D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4BC8E655-CD1E-48CD-B495-75C706C21F7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E95C94A9-384D-47A2-9BCB-143EBCF5DC1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{D452933B-5891-40C2-95FA-DA50D9DD10DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.RabbitMQCore", "Cart.RabbitMQCore\Services.RabbitMQCore.csproj", "{547A447A-BDEB-4E37-8027-3FD94F137871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8027AB4-F5FA-494C-A283-55E90D2026D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8027AB4-F5FA-494C-A283-55E90D2026D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8027AB4-F5FA-494C-A283-55E90D2026D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8027AB4-F5FA-494C-A283-55E90D2026D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D452933B-5891-40C2-95FA-DA50D9DD10DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D452933B-5891-40C2-95FA-DA50D9DD10DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D452933B-5891-40C2-95FA-DA50D9DD10DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D452933B-5891-40C2-95FA-DA50D9DD10DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547A447A-BDEB-4E37-8027-3FD94F137871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547A447A-BDEB-4E37-8027-3FD94F137871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547A447A-BDEB-4E37-8027-3FD94F137871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547A447A-BDEB-4E37-8027-3FD94F137871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8027AB4-F5FA-494C-A283-55E90D2026D8} = {4BC8E655-CD1E-48CD-B495-75C706C21F7F}
+		{D452933B-5891-40C2-95FA-DA50D9DD10DC} = {E95C94A9-384D-47A2-9BCB-143EBCF5DC1C}
+		{547A447A-BDEB-4E37-8027-3FD94F137871} = {4BC8E655-CD1E-48CD-B495-75C706C21F7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {306D01A4-24A7-47AB-95F8-A766F5221DE1}
+	EndGlobalSection
+EndGlobal
